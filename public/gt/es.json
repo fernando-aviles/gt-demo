@@ -1,0 +1,1098 @@
+{
+  "0166c6a67350ccb9": [
+    {
+      "c": "Variables",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Usa Variable, Número, Moneda y Fecha y hora para interpolar valores dinámicos formateados según la configuración regional.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "0a0c19d58f43d88c": [
+    "La ",
+    {
+      "c": "niña",
+      "i": 1,
+      "t": "Static"
+    },
+    " es muy ",
+    {
+      "c": "inteligente",
+      "i": 2,
+      "t": "Static"
+    },
+    "."
+  ],
+  "103f34010497be66": {
+    "c": [
+      {
+        "c": "Plural y Rama",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Gestiona las reglas de pluralización y el contenido condicional que se adaptan al idioma de destino. Usa los controles de más abajo para ver cómo las traducciones cambian en tiempo real.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "header"
+  },
+  "10edbd30a1371897": {
+    "c": [
+      {
+        "c": "<Num> — Números",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Da formato a los números según la configuración regional del usuario (por ejemplo, 11,423 frente a 11.423).",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": {
+          "c": [
+            "Tienes ",
+            {
+              "i": 6,
+              "k": "_gt_n_6",
+              "v": "n"
+            },
+            " artículos en tu inventario."
+          ],
+          "i": 5,
+          "t": "p"
+        },
+        "i": 4,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "23cf06794bcb70ae": "Busca tus proyectos...",
+  "2886af9bcfe32fc7": [
+    {
+      "c": "Contenido Estático",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Marca con Estático el contenido cuyo conjunto de valores es fijo, para pre-generar variantes de traducción para cada posible valor en tiempo de ejecución, por ejemplo nombres de marca, fragmentos de código y términos técnicos.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "307ab8dab5202089": "Componente T",
+  "31b59b6bdc8567ce": [
+    "El ",
+    {
+      "c": "rey",
+      "i": 1,
+      "t": "Static"
+    },
+    " era muy querido por todos."
+  ],
+  "334b80fab698df68": "Pago recibido. ¡Gracias!",
+  "374553bdde9feef0": "Cadenas",
+  "3edd8c4c6a0d12b5": {
+    "d": {
+      "b": {
+        "active": {
+          "c": [
+            "Tu cuenta está ",
+            {
+              "c": "activa",
+              "i": 3,
+              "t": "strong"
+            },
+            ". Todas las funciones están disponibles."
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "inactive": {
+          "c": [
+            "Tu cuenta está ",
+            {
+              "c": "inactiva",
+              "i": 3,
+              "t": "strong"
+            },
+            ". Por favor, renueva tu suscripción."
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "pending": {
+          "c": [
+            "Tu cuenta está ",
+            {
+              "c": "pendiente de revisión",
+              "i": 3,
+              "t": "strong"
+            },
+            ". Te notificaremos una vez aprobada."
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "480bbfa36edcb04f": "{name} se acaba de unir a tu equipo.",
+  "498d4626401a460f": [
+    {
+      "c": "Plural y Rama",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Gestiona las reglas de pluralización y el contenido condicional con Plural y Rama.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "4ac54d66289d4391": {
+    "c": "Tres componentes diferentes — la navegación del encabezado, la barra lateral y esta demostración — importan el mismo array y llaman a useMessages() para obtener las etiquetas traducidas. Las cadenas se definen una sola vez y se traducen en todas partes.",
+    "i": 1,
+    "t": "p"
+  },
+  "4d4f3195b0120467": [
+    "La ",
+    {
+      "c": "niña",
+      "i": 1,
+      "t": "Static"
+    },
+    " es muy ",
+    {
+      "c": "alta",
+      "i": 2,
+      "t": "Static"
+    },
+    "."
+  ],
+  "4dba4e534bd37571": "Estático",
+  "5b1f4f662ee02ff2": "Tu perfil se ha actualizado.",
+  "5e6ef6afa2076452": [
+    {
+      "c": "Cadenas compartidas entre componentes",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Las etiquetas de navegación que ves en el encabezado y en la barra lateral se definen una sola vez con msg() en un archivo compartido y se resuelven con useMessages() en cada componente. Aquí están esas mismas cadenas, resueltas también en este componente:",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "66a519090c339917": "msg()",
+  "68adb14be3b92968": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "El componente <T>",
+            "i": 3,
+            "t": "h1"
+          },
+          {
+            "c": "Envuelve cualquier contenido JSX en el Componente T para que sea traducible. Este es el bloque de construcción más fundamental de gt-next.",
+            "i": 4,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "header"
+      },
+      {
+        "c": [
+          {
+            "c": "Texto básico",
+            "i": 6,
+            "t": "h2"
+          },
+          {
+            "c": [
+              {
+                "c": "Bienvenido a nuestra plataforma",
+                "i": 8,
+                "t": "h3"
+              },
+              {
+                "c": "Ayudamos a los equipos a crear productos que funcionen para todo el mundo, sin importar el idioma que hablen. Nuestras herramientas hacen que la internacionalización sea sencilla.",
+                "i": 9,
+                "t": "p"
+              }
+            ],
+            "i": 7,
+            "t": "div"
+          }
+        ],
+        "i": 5,
+        "t": "section"
+      },
+      {
+        "c": [
+          {
+            "c": "Elementos anidados",
+            "i": 11,
+            "t": "h2"
+          },
+          {
+            "c": {
+              "c": [
+                "El Componente T maneja ",
+                {
+                  "c": "texto en negrita",
+                  "i": 14,
+                  "t": "strong"
+                },
+                ", ",
+                {
+                  "c": "texto en cursiva",
+                  "i": 15,
+                  "t": "em"
+                },
+                " e incluso ",
+                {
+                  "c": "enlaces",
+                  "i": 16,
+                  "t": "a"
+                },
+                " sin problemas. Todo el bloque se traduce como una única unidad, conservando la estructura."
+              ],
+              "i": 13,
+              "t": "p"
+            },
+            "i": 12,
+            "t": "div"
+          }
+        ],
+        "i": 10,
+        "t": "section"
+      },
+      {
+        "c": [
+          {
+            "c": "Ejemplo de tarjeta de producto",
+            "i": 18,
+            "t": "h2"
+          },
+          {
+            "c": [
+              {
+                "c": "Pro Plan",
+                "i": 20,
+                "t": "h3"
+              },
+              {
+                "c": "Todo lo que necesitas para escalar tu internacionalización.",
+                "i": 21,
+                "t": "p"
+              },
+              {
+                "c": [
+                  {
+                    "c": "Traducciones ilimitadas",
+                    "i": 23,
+                    "t": "li"
+                  },
+                  {
+                    "c": "Soporte prioritario",
+                    "i": 24,
+                    "t": "li"
+                  },
+                  {
+                    "c": "Analítica avanzada",
+                    "i": 25,
+                    "t": "li"
+                  },
+                  {
+                    "c": "Flujos de trabajo personalizados",
+                    "i": 26,
+                    "t": "li"
+                  }
+                ],
+                "i": 22,
+                "t": "ul"
+              },
+              {
+                "c": "Comenzar",
+                "i": 27,
+                "t": "button"
+              }
+            ],
+            "i": 19,
+            "t": "div"
+          }
+        ],
+        "i": 17,
+        "t": "section"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "6f99d942ea5a3306": [
+    {
+      "c": "Mensajes msg()",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Codifica cadenas traducibles con msg() y resuélvelas con useMessages(), ideal para metadatos y cadenas dinámicas.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "7c7624d066dd043e": {
+    "c": [
+      {
+        "c": "<DateTime> — Fechas y horas",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Representa fechas y horas en el formato apropiado para la configuración regional.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": {
+          "c": [
+            "Pedido realizado el ",
+            {
+              "i": 6,
+              "k": "_gt_date_6",
+              "v": "d"
+            },
+            "."
+          ],
+          "i": 5,
+          "t": "p"
+        },
+        "i": 4,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "807c7f829ffffc0a": [
+    {
+      "c": "Traducciones de Cadenas",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Usa el hook useGT() para traducciones de cadenas al estilo ICU, perfecto para atributos y contextos no JSX.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "8f0881f6125b8aae": [
+    {
+      "c": "<Branch> — Contenido condicional",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Renderiza traducciones diferentes en función de un valor, como el estado, el género o el rol. Todo el bloque se envía para traducción.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "913b7d969a3300f1": {
+    "c": [
+      {
+        "c": "Demostración de General Translation",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Un recorrido en vivo por la biblioteca de traducción gt-next. Cada página a continuación muestra una función diferente: edita el código, ejecuta las traducciones y mira cómo la interfaz de usuario se actualiza en tiempo real.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "923fb4b0794a4d44": {
+    "c": [
+      {
+        "c": "msg() y useMessages()",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Usa msg() para codificar las cadenas traducibles en el momento de la definición y useMessages() para resolverlas en el momento del renderizado. Define las cadenas una sola vez y reutilízalas en cualquier número de componentes.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "header"
+  },
+  "925d466b68f73f3d": "Demos",
+  "926761fe0bcccd9f": {
+    "c": [
+      {
+        "c": "Variables",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Usa componentes Variable para interpolar valores dinámicos dentro de contenido traducido. Los valores se formatean automáticamente para la configuración regional de destino.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "header"
+  },
+  "95e568730bdde867": "Variables",
+  "967c9b6319fe2d50": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "Traducciones de cadenas",
+            "i": 3,
+            "t": "h1"
+          },
+          {
+            "c": "Usa el hook useGT() para traducir cadenas de texto simples: perfecto para atributos, títulos, marcadores de posición (placeholders) y cualquier contexto en el que no puedas envolver con JSX.",
+            "i": 4,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "header"
+      },
+      {
+        "c": [
+          {
+            "c": "Traducción básica de cadenas",
+            "i": 6,
+            "t": "h2"
+          },
+          {
+            "c": "Pasa una cadena con marcadores de estilo ICU y valores de variables.",
+            "i": 7,
+            "t": "p"
+          },
+          {
+            "c": [
+              {
+                "c": "Nombre:",
+                "i": 9,
+                "t": "label"
+              },
+              {
+                "i": 10,
+                "t": "input"
+              }
+            ],
+            "i": 8,
+            "t": "div"
+          },
+          {
+            "c": {
+              "c": {
+                "i": 13,
+                "k": "_gt_value_13",
+                "v": "v"
+              },
+              "i": 12,
+              "t": "p"
+            },
+            "i": 11,
+            "t": "div"
+          }
+        ],
+        "i": 5,
+        "t": "section"
+      },
+      {
+        "c": [
+          {
+            "c": "Títulos de página y metadatos",
+            "i": 15,
+            "t": "h2"
+          },
+          {
+            "c": "Traduce cadenas usadas como títulos de documento u otros metadatos.",
+            "i": 16,
+            "t": "p"
+          },
+          {
+            "c": {
+              "c": [
+                {
+                  "c": "document.title",
+                  "i": 19,
+                  "t": "span"
+                },
+                {
+                  "c": {
+                    "i": 21,
+                    "k": "_gt_value_21",
+                    "v": "v"
+                  },
+                  "i": 20,
+                  "t": "span"
+                }
+              ],
+              "i": 18,
+              "t": "div"
+            },
+            "i": 17,
+            "t": "div"
+          }
+        ],
+        "i": 14,
+        "t": "section"
+      },
+      {
+        "c": [
+          {
+            "c": "Atributos HTML",
+            "i": 23,
+            "t": "h2"
+          },
+          {
+            "c": "Usa cadenas traducidas para atributos placeholder, aria-label y title.",
+            "i": 24,
+            "t": "p"
+          },
+          {
+            "c": [
+              {
+                "c": [
+                  {
+                    "c": "placeholder",
+                    "i": 27,
+                    "t": "label"
+                  },
+                  {
+                    "i": 28,
+                    "t": "input"
+                  }
+                ],
+                "i": 26,
+                "t": "div"
+              },
+              {
+                "c": [
+                  {
+                    "c": "aria-label",
+                    "i": 30,
+                    "t": "label"
+                  },
+                  {
+                    "c": [
+                      "✕ ",
+                      {
+                        "c": {
+                          "i": 33,
+                          "k": "_gt_value_33",
+                          "v": "v"
+                        },
+                        "i": 32,
+                        "t": "span"
+                      }
+                    ],
+                    "i": 31,
+                    "t": "button"
+                  }
+                ],
+                "i": 29,
+                "t": "div"
+              }
+            ],
+            "i": 25,
+            "t": "div"
+          }
+        ],
+        "i": 22,
+        "t": "section"
+      },
+      {
+        "c": [
+          {
+            "c": "Mensajes dinámicos",
+            "i": 35,
+            "t": "h2"
+          },
+          {
+            "c": "Traduce mensajes emergentes (toasts), alertas y otras cadenas dinámicas.",
+            "i": 36,
+            "t": "p"
+          },
+          {
+            "c": {
+              "c": [
+                {
+                  "c": "i",
+                  "i": 39,
+                  "t": "span"
+                },
+                {
+                  "c": {
+                    "i": 41,
+                    "k": "_gt_value_41",
+                    "v": "v"
+                  },
+                  "i": 40,
+                  "t": "p"
+                }
+              ],
+              "i": 38,
+              "t": "div"
+            },
+            "i": 37,
+            "t": "div"
+          }
+        ],
+        "i": 34,
+        "t": "section"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "9bf584fe3eedcf71": [
+    "Tienes ",
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " artículos en tu carrito."
+  ],
+  "a3bbab4f5ec2f9dd": [
+    {
+      "c": "Traducciones con género",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "En muchos idiomas, los artículos y los adjetivos cambian según el género del sustantivo. Con dos valores de Estático, GT pre-genera todas las combinaciones; aquí son 2 × 2 = 4 variantes.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "ab4b09560831ca7d": [
+    "La ",
+    {
+      "c": "reina",
+      "i": 1,
+      "t": "Static"
+    },
+    " era muy querida por todos."
+  ],
+  "ac7f0156e4260036": [
+    {
+      "c": "Otro ejemplo",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Cambia entre variantes y fíjate en cómo se adapta la traducción que las rodea: los artículos, los adjetivos e incluso las formas verbales pueden ajustarse en el idioma de destino.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "b9ec1fe3208d00f3": [
+    {
+      "c": [
+        "Componente <T>"
+      ],
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Envuelve cualquier contenido JSX en el Componente T para que sea traducible. La manera más sencilla de internacionalizar tu interfaz.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "c00c5f78ae27ad86": "Tu periodo de prueba caduca en 3 días.",
+  "c5fbc80652c4dc57": {
+    "c": [
+      {
+        "c": "<Plural> — Pluralización",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Aplica automáticamente la forma de plural correcta según las reglas de CLDR del idioma de destino.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": [
+          {
+            "c": "Cantidad:",
+            "i": 5,
+            "t": "label"
+          },
+          {
+            "c": "-",
+            "i": 6,
+            "t": "button"
+          },
+          {
+            "c": {
+              "i": 8,
+              "k": "_gt_n_8",
+              "v": "n"
+            },
+            "i": 7,
+            "t": "span"
+          },
+          {
+            "c": "+",
+            "i": 9,
+            "t": "button"
+          }
+        ],
+        "i": 4,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "c": {
+                "c": [
+                  "Tienes ",
+                  {
+                    "i": 14,
+                    "k": "_gt_n_14",
+                    "v": "n"
+                  },
+                  " nuevas notificaciones."
+                ],
+                "d": {
+                  "b": {
+                    "many": [
+                      "Tienes ",
+                      {
+                        "i": 14,
+                        "k": "_gt_n_14",
+                        "v": "n"
+                      },
+                      " notificaciones nuevas."
+                    ],
+                    "one": {
+                      "c": [
+                        "Tienes ",
+                        {
+                          "i": 15,
+                          "k": "_gt_n_15",
+                          "v": "n"
+                        },
+                        " nueva notificación."
+                      ],
+                      "i": 14,
+                      "t": "C14"
+                    },
+                    "other": [
+                      "Tienes ",
+                      {
+                        "i": 14,
+                        "k": "_gt_n_14",
+                        "v": "n"
+                      },
+                      " notificaciones nuevas."
+                    ]
+                  },
+                  "t": "p"
+                },
+                "i": 13,
+                "t": "Plural"
+              },
+              "i": 12,
+              "t": "p"
+            },
+            "i": 11,
+            "t": "div"
+          },
+          {
+            "c": {
+              "c": {
+                "c": [
+                  {
+                    "i": 18,
+                    "k": "_gt_n_18",
+                    "v": "n"
+                  },
+                  " artículos en tu carrito."
+                ],
+                "d": {
+                  "b": {
+                    "many": [
+                      {
+                        "i": 18,
+                        "k": "_gt_n_18",
+                        "v": "n"
+                      },
+                      " de artículos en tu carrito."
+                    ],
+                    "one": {
+                      "c": [
+                        {
+                          "i": 19,
+                          "k": "_gt_n_19",
+                          "v": "n"
+                        },
+                        " artículo en tu carrito."
+                      ],
+                      "i": 18,
+                      "t": "C18"
+                    },
+                    "other": [
+                      {
+                        "i": 18,
+                        "k": "_gt_n_18",
+                        "v": "n"
+                      },
+                      " artículos en tu carrito."
+                    ]
+                  },
+                  "t": "p"
+                },
+                "i": 17,
+                "t": "Plural"
+              },
+              "i": 16,
+              "t": "p"
+            },
+            "i": 15,
+            "t": "div"
+          }
+        ],
+        "i": 10,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "c614908f72456e69": [
+    {
+      "c": "Arrays a nivel de módulo",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Codifica un array de cadenas con msg() fuera del componente y luego resuélvelas con useMessages() en el momento del renderizado.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "cd2db00af24606fc": {
+    "c": [
+      {
+        "c": "<Var> — Variables de texto",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Interpola un valor de cadena dinámico que se mantiene tal cual (no se traduce).",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": {
+          "c": [
+            "Hola, ",
+            {
+              "i": 6,
+              "k": "_gt_value_6",
+              "v": "v"
+            },
+            "! Bienvenido de nuevo a tu panel de control."
+          ],
+          "i": 5,
+          "t": "p"
+        },
+        "i": 4,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "d22532a5e23ca78e": "No se puede establecer conexión con el servidor.",
+  "dbf702acfa108893": [
+    {
+      "c": "¿Pero qué hay de la pluralización?",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": [
+        "<Num> formatea los números correctamente, pero el texto que lo rodea permanece igual sin importar el valor. Prueba a cambiar la cuenta:"
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "dd33f66fbc98a5e7": [
+    "El ",
+    {
+      "c": "niño",
+      "i": 1,
+      "t": "Static"
+    },
+    " es muy ",
+    {
+      "c": "alto",
+      "i": 2,
+      "t": "Static"
+    },
+    "."
+  ],
+  "dda765b9f7730649": {
+    "c": [
+      {
+        "c": "<Currency> — Precios",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Muestra precios formateados para la configuración regional y la moneda de destino.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": [
+          {
+            "c": [
+              "Tu total es ",
+              {
+                "i": 6,
+                "k": "_gt_cost_6",
+                "v": "c"
+              },
+              "."
+            ],
+            "i": 5,
+            "t": "p"
+          },
+          {
+            "c": [
+              "Equivalente: ",
+              {
+                "i": 8,
+                "k": "_gt_cost_8",
+                "v": "c"
+              },
+              "."
+            ],
+            "i": 7,
+            "t": "p"
+          }
+        ],
+        "i": 4,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "eb06c9bdf4069241": "Panel de control — {count} nuevas actualizaciones",
+  "ed84807cd3e1117f": {
+    "c": [
+      {
+        "c": "Contenido Estático",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Usa el componente Static para marcar partes de una traducción que varían en tiempo de ejecución. GT pre-genera traducciones para cada posible variante, de modo que cambiar entre ellas es instantáneo: no hace falta traducir nada en tiempo de ejecución.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "header"
+  },
+  "eec2a278b3c93214": {
+    "c": [
+      {
+        "c": "Todo junto — Resumen del pedido",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": {
+          "c": [
+            "Hola ",
+            {
+              "i": 5,
+              "k": "_gt_value_5",
+              "v": "v"
+            },
+            ", tu pedido de ",
+            {
+              "i": 6,
+              "k": "_gt_n_6",
+              "v": "n"
+            },
+            " artículos por un total de ",
+            {
+              "i": 7,
+              "k": "_gt_cost_7",
+              "v": "c"
+            },
+            " se realizó el ",
+            {
+              "i": 8,
+              "k": "_gt_date_8",
+              "v": "d"
+            },
+            "."
+          ],
+          "i": 4,
+          "t": "p"
+        },
+        "i": 3,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "f3b155dd55b64e72": [
+    "El ",
+    {
+      "c": "niño",
+      "i": 1,
+      "t": "Static"
+    },
+    " es muy ",
+    {
+      "c": "inteligente",
+      "i": 2,
+      "t": "Static"
+    },
+    "."
+  ],
+  "fb8be6f07595be29": "Cerrar el panel de configuración",
+  "fce281731073b6db": "Hola, {name}. Bienvenido de nuevo.",
+  "fd5bfc947da52ac9": "Plural y Rama"
+}
