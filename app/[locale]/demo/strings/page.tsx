@@ -7,7 +7,6 @@ import { useGT } from "gt-next/client";
 export default function StringsDemo() {
   const gt = useGT();
   const [name, setName] = useState("Alex");
-  const [teaserPerson, setTeaserPerson] = useState<"boy" | "girl">("boy");
 
   const greeting = gt("Hello, {name}! Welcome back.", { name });
   const pageTitle = gt("Dashboard — {count} new updates", { count: 5 });

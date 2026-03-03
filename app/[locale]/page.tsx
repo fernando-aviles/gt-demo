@@ -24,7 +24,7 @@ export default function Home() {
         >
           <T>
             <h2 className="mb-2 text-lg font-semibold text-white group-hover:text-blue-400">
-              {"<T>"} Component
+              T Component
             </h2>
             <p className="text-sm text-zinc-400">
               Wrap any JSX content in the T component to make it translatable.

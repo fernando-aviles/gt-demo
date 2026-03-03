@@ -6,7 +6,7 @@ export default function TComponentDemo() {
       <div className="space-y-10">
         <header>
           <h1 className="mb-2 text-3xl font-bold text-white">
-            {"The <T> Component"}
+            {"The T Component"}
           </h1>
           <p className="text-zinc-400">
             Wrap any JSX content in the T component to make it translatable.

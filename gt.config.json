@@ -8,7 +8,8 @@
   "defaultLocale": "en-US",
   "locales": [
     "en-US",
-    "es"
+    "es",
+    "fr"
   ],
-  "_versionId": "887544818c97d21a66a17030998d2d6deae1fb94b5035a7f82fe4903ee9b8013"
+  "_versionId": "85ba1037ce4b5d4e794a217dd0e56d74f9c20016e8094a3503a8b3d266a005b2"
 }

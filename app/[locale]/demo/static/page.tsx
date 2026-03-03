@@ -3,34 +3,29 @@
 import { useState } from "react";
 import { T, Static } from "gt-next";
 
-const people = ["boy", "girl"] as const;
-type Person = (typeof people)[number];
+const people = ["boy", "girl"];
+const adjectives = ["tall", "smart"];
+const royals = ["king", "queen"];
 
-const adjectives = ["tall", "smart"] as const;
-type Adjective = (typeof adjectives)[number];
-
-const royals = ["king", "queen"] as const;
-type Royal = (typeof royals)[number];
-
-function getPerson(person: Person) {
+function getPerson(person: string) {
   if (person === "boy") return "boy";
   return "girl";
 }
 
-function getAdjective(adjective: Adjective) {
+function getAdjective(adjective: string) {
   if (adjective === "tall") return "tall";
   return "smart";
 }
 
-function getRoyal(royal: Royal) {
+function getRoyal(royal: string) {
   if (royal === "king") return "king";
   return "queen";
 }
 
 export default function StaticDemo() {
-  const [person, setPerson] = useState<Person>("boy");
-  const [adjective, setAdjective] = useState<Adjective>("tall");
-  const [royal, setRoyal] = useState<Royal>("king");
+  const [person, setPerson] = useState("boy");
+  const [adjective, setAdjective] = useState("tall");
+  const [royal, setRoyal] = useState("king");
 
   return (
     <div className="space-y-10">

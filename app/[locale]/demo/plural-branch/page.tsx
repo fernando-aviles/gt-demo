@@ -59,6 +59,11 @@ export default function PluralBranchDemo() {
               <p className="text-zinc-300">
                 <Plural
                   n={count}
+                  zero={
+                    <>
+                      You have no new notifications.
+                    </>
+                  }
                   one={
                     <>
                       You have <Num>{count}</Num> new notification.
@@ -74,6 +79,11 @@ export default function PluralBranchDemo() {
               <p className="text-zinc-300">
                 <Plural
                   n={count}
+                  zero={
+                    <>
+                      You have no items in your cart.
+                    </>
+                  }
                   one={
                     <>
                       <Num>{count}</Num> item in your cart.
