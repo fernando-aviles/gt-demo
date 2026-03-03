@@ -1,4 +1,17 @@
 {
+  "0031229dab04747f": [
+    "Bonjour, ",
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "Static"
+    },
+    " ! Vous êtes vraiment très intelligent !"
+  ],
   "0166c6a67350ccb9": [
     {
       "c": "Variables",
@@ -76,18 +89,6 @@
     "t": "section"
   },
   "23cf06794bcb70ae": "Recherchez dans vos projets...",
-  "2886af9bcfe32fc7": [
-    {
-      "c": "Contenu Statique",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Marquez avec Statique le contenu qui doit rester identique dans toutes les locales\u0000 : noms de marque, extraits de code, certains termes techniques.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
   "2a703afa84914bcf": {
     "c": [
       {
@@ -247,6 +248,7 @@
   ],
   "334b80fab698df68": "Paiement reçu — merci !",
   "374553bdde9feef0": "Chaînes",
+  "3d9cf18daec398b2": "Laissez ce champ vide pour utiliser la valeur par défaut",
   "3edd8c4c6a0d12b5": {
     "d": {
       "b": {
@@ -340,7 +342,7 @@
     },
     "."
   ],
-  "4dba4e534bd37571": "Statique",
+  "4dba4e534bd37571": "Static",
   "5b1f4f662ee02ff2": "Votre profil a été mis à jour.",
   "5e6ef6afa2076452": [
     {
@@ -354,6 +356,21 @@
       "t": "p"
     }
   ],
+  "62755d4fcd72e5e9": {
+    "c": [
+      {
+        "c": "Nom :",
+        "i": 2,
+        "t": "label"
+      },
+      {
+        "i": 3,
+        "t": "input"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "66a519090c339917": "msg()",
   "6f99d942ea5a3306": [
     {
@@ -367,6 +384,22 @@
       "t": "p"
     }
   ],
+  "7452adf72e55fabe": {
+    "c": [
+      {
+        "c": "Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Utilisez le composant Static pour marquer les parties d’une traduction qui peuvent varier à l’exécution. GT prégénère des traductions pour chaque variante possible, afin que le passage d’une variante à l’autre soit instantané — aucune traduction à l’exécution n’est nécessaire.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "header"
+  },
   "7c7624d066dd043e": {
     "c": [
       {
@@ -872,7 +905,7 @@
       "t": "h2"
     },
     {
-      "c": "Dans de nombreuses langues, les articles et les adjectifs changent en fonction du genre du nom. Avec deux valeurs Static, GT pré-génère toutes les combinaisons — ici, cela fait 2 × 2 = 4 variantes.",
+      "c": "Dans de nombreuses langues, les articles et les adjectifs changent en fonction du genre du nom. Avec deux valeurs Static, GT pré-génère chaque combinaison — ici, cela fait 2 × 2 = 4 variantes.",
       "i": 2,
       "t": "p"
     }
@@ -888,12 +921,24 @@
   ],
   "ac7f0156e4260036": [
     {
-      "c": "Un autre exemple",
+      "c": "Autre exemple",
       "i": 1,
       "t": "h2"
     },
     {
-      "c": "Basculez entre les variantes et remarquez comment la traduction du contexte change — les articles, les adjectifs et même les formes verbales peuvent s’adapter dans la langue cible.",
+      "c": "Basculez entre les variantes et observez comment la traduction environnante change — les articles, les adjectifs et même les formes verbales peuvent s’adapter dans la langue cible.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "b60ea8cff6f90006": [
+    {
+      "c": "Static",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Gérez la fragmentation des phrases et le contenu réutilisable sans sacrifier les accords, les conjugaisons ni la flexibilité de l’ordre des mots.",
       "i": 2,
       "t": "p"
     }
@@ -910,6 +955,15 @@
       "i": 2,
       "t": "p"
     }
+  ],
+  "cc0d118f4bbc6273": [
+    "Bonjour, ",
+    {
+      "c": "tout le monde",
+      "i": 1,
+      "t": "Static"
+    },
+    " ! Vous êtes vraiment très intelligents !"
   ],
   "cd2db00af24606fc": {
     "c": [
@@ -1022,23 +1076,19 @@
     "i": 1,
     "t": "section"
   },
+  "e76b7f8a74c123a7": [
+    {
+      "c": "Static avec Var",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Combinez Static avec Var pour gérer des valeurs dynamiques aux côtés de valeurs par défaut fixes. Lorsque le nom est vide, « everyone » est une variante Static prétradute. Lorsqu’il est renseigné, Var l’indique comme une variable d’exécution non traduite.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "eb06c9bdf4069241": "Tableau de bord — {count} nouvelles mises à jour",
-  "ed84807cd3e1117f": {
-    "c": [
-      {
-        "c": "Contenu Statique",
-        "i": 2,
-        "t": "h1"
-      },
-      {
-        "c": "Utilisez le composant Static pour marquer les parties d’une traduction qui varient à l’exécution. GT pré-génère les traductions pour chaque variante possible, de sorte que passer de l’une à l’autre est instantané — aucune traduction à l’exécution n’est nécessaire.",
-        "i": 3,
-        "t": "p"
-      }
-    ],
-    "i": 1,
-    "t": "header"
-  },
   "eec2a278b3c93214": {
     "c": [
       {

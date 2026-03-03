@@ -1,4 +1,17 @@
 {
+  "0031229dab04747f": [
+    "Hola, ",
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "Static"
+    },
+    "! ¡Eres muy listo!"
+  ],
   "0166c6a67350ccb9": [
     {
       "c": "Variables",
@@ -20,7 +33,7 @@
     },
     " es muy ",
     {
-      "c": "inteligente",
+      "c": "lista",
       "i": 2,
       "t": "Static"
     },
@@ -76,18 +89,6 @@
     "t": "section"
   },
   "23cf06794bcb70ae": "Busca tus proyectos...",
-  "2886af9bcfe32fc7": [
-    {
-      "c": "Contenido Estático",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Marca con Estático el contenido cuyo conjunto de valores es fijo, para pre-generar variantes de traducción para cada posible valor en tiempo de ejecución, por ejemplo nombres de marca, fragmentos de código y términos técnicos.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
   "2a703afa84914bcf": {
     "c": [
       {
@@ -247,6 +248,7 @@
   ],
   "334b80fab698df68": "Pago recibido. ¡Gracias!",
   "374553bdde9feef0": "Cadenas",
+  "3d9cf18daec398b2": "Déjalo vacío para usar el valor de reserva",
   "3edd8c4c6a0d12b5": {
     "d": {
       "b": {
@@ -340,7 +342,7 @@
     },
     "."
   ],
-  "4dba4e534bd37571": "Estático",
+  "4dba4e534bd37571": "Static",
   "5b1f4f662ee02ff2": "Tu perfil se ha actualizado.",
   "5e6ef6afa2076452": [
     {
@@ -354,6 +356,21 @@
       "t": "p"
     }
   ],
+  "62755d4fcd72e5e9": {
+    "c": [
+      {
+        "c": "Nombre:",
+        "i": 2,
+        "t": "label"
+      },
+      {
+        "i": 3,
+        "t": "input"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "66a519090c339917": "msg()",
   "6f99d942ea5a3306": [
     {
@@ -367,6 +384,22 @@
       "t": "p"
     }
   ],
+  "7452adf72e55fabe": {
+    "c": [
+      {
+        "c": "Static",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Usa el componente Static para marcar las partes de una traducción que cambian en tiempo de ejecución. GT pre‑genera traducciones para cada posible variante, por lo que cambiar entre ellas es instantáneo: no hace falta traducir nada en tiempo de ejecución.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "header"
+  },
   "7c7624d066dd043e": {
     "c": [
       {
@@ -867,12 +900,12 @@
   ],
   "a3bbab4f5ec2f9dd": [
     {
-      "c": "Traducciones con género",
+      "c": "Traducciones con género gramatical",
       "i": 1,
       "t": "h2"
     },
     {
-      "c": "En muchos idiomas, los artículos y los adjetivos cambian según el género del sustantivo. Con dos valores de Estático, GT pre-genera todas las combinaciones; aquí son 2 × 2 = 4 variantes.",
+      "c": "En muchos idiomas, los artículos y los adjetivos cambian según el género del sustantivo. Con dos valores de Estático, GT pre-genera todas las combinaciones; aquí eso es 2 × 2 = 4 variantes.",
       "i": 2,
       "t": "p"
     }
@@ -893,7 +926,19 @@
       "t": "h2"
     },
     {
-      "c": "Cambia entre variantes y fíjate en cómo se adapta la traducción que las rodea: los artículos, los adjetivos e incluso las formas verbales pueden ajustarse en el idioma de destino.",
+      "c": "Cambia entre variantes y fíjate en cómo se modifica la traducción que las rodea: los artículos, los adjetivos e incluso las formas verbales pueden adaptarse en el idioma de destino.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "b60ea8cff6f90006": [
+    {
+      "c": "Static",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Gestiona la fragmentación de frases y el contenido reutilizable sin renunciar a la concordancia, la conjugación ni a los cambios en el orden de las palabras.",
       "i": 2,
       "t": "p"
     }
@@ -910,6 +955,15 @@
       "i": 2,
       "t": "p"
     }
+  ],
+  "cc0d118f4bbc6273": [
+    "Hola, ",
+    {
+      "c": "everyone",
+      "i": 1,
+      "t": "Static"
+    },
+    "! ¡Son muy listos!"
   ],
   "cd2db00af24606fc": {
     "c": [
@@ -1022,23 +1076,19 @@
     "i": 1,
     "t": "section"
   },
+  "e76b7f8a74c123a7": [
+    {
+      "c": "Static con Var",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Combina Static con Var para gestionar valores abiertos junto con un valor de reserva fijo. Cuando el nombre está vacío, \"everyone\" es una variante Static ya pretraducida. Cuando tiene contenido, Var lo marca como una variable en tiempo de ejecución sin traducir.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "eb06c9bdf4069241": "Panel de control — {count} nuevas actualizaciones",
-  "ed84807cd3e1117f": {
-    "c": [
-      {
-        "c": "Contenido Estático",
-        "i": 2,
-        "t": "h1"
-      },
-      {
-        "c": "Usa el componente Static para marcar partes de una traducción que varían en tiempo de ejecución. GT pre-genera traducciones para cada posible variante, de modo que cambiar entre ellas es instantáneo: no hace falta traducir nada en tiempo de ejecución.",
-        "i": 3,
-        "t": "p"
-      }
-    ],
-    "i": 1,
-    "t": "header"
-  },
   "eec2a278b3c93214": {
     "c": [
       {
@@ -1094,7 +1144,7 @@
     },
     " es muy ",
     {
-      "c": "inteligente",
+      "c": "listo",
       "i": 2,
       "t": "Static"
     },

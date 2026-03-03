@@ -84,11 +84,10 @@ export default function Home() {
         >
           <T>
             <h2 className="mb-2 text-lg font-semibold text-white group-hover:text-blue-400">
-              Static Content
+              Static
             </h2>
             <p className="text-sm text-zinc-400">
-              Mark content that should never be translated with Static — brand
-              names, code, technical terms.
+              Handle sentence fragmentation and reusable content without sacrificing word agreement, conjugation, and word order changes.
             </p>
           </T>
         </Link>
