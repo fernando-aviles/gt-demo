@@ -1,7 +1,6 @@
 "use client";
 
-import { T, Var } from "gt-next";
-import { msg, useMessages } from "gt-next/client";
+import { T, msg, useMessages } from "gt-next";
 import { demoPages } from "../demoPages";
 
 // ---- Strings defined at module level, outside any component ----

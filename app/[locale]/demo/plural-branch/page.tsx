@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { T, Num, Plural, Branch } from "gt-next";
+import { T, Num, Plural, Branch, useGT } from "gt-next";
 
 export default function PluralBranchDemo() {
+  const gt = useGT();
   const [count, setCount] = useState(3);
   const [status, setStatus] = useState<"active" | "inactive" | "pending">(
     "active"
@@ -111,7 +112,7 @@ export default function PluralBranchDemo() {
         </T>
 
         <div className="mb-4 flex items-center gap-2">
-          <label className="text-sm text-zinc-400">Status:</label>
+          <label className="text-sm text-zinc-400">{gt("Status:")}</label>
           {(["active", "inactive", "pending"] as const).map((s) => (
             <button
               key={s}
