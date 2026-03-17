@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { T, Static, Var, useGT} from "gt-next";
+import { T, Static, Var, Branch, useGT} from "gt-next";
 
 function getSubject(isMale: boolean) {
   if (isMale) return "boy";
@@ -63,7 +63,7 @@ export default function StaticDemo() {
                   : "border border-zinc-700 bg-zinc-800 text-zinc-400 hover:bg-zinc-700"
               }`}
             >
-              Male
+              {gt('Male')}
             </button>
             <button
               onClick={() => setIsMale(false)}
@@ -73,7 +73,7 @@ export default function StaticDemo() {
                   : "border border-zinc-700 bg-zinc-800 text-zinc-400 hover:bg-zinc-700"
               }`}
             >
-              Female
+              {gt('Female')}
             </button>
           </div>
           <div className="flex items-center gap-2">
@@ -85,7 +85,7 @@ export default function StaticDemo() {
                   : "border border-zinc-700 bg-zinc-800 text-zinc-400 hover:bg-zinc-700"
               }`}
             >
-              Tall
+              {gt('Tall')}
             </button>
             <button
               onClick={() => setIsTall(false)}
@@ -95,7 +95,7 @@ export default function StaticDemo() {
                   : "border border-zinc-700 bg-zinc-800 text-zinc-400 hover:bg-zinc-700"
               }`}
             >
-              Smart
+              {gt('Smart')}
             </button>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function StaticDemo() {
                 : "border border-zinc-700 bg-zinc-800 text-zinc-400 hover:bg-zinc-700"
             }`}
           >
-            King
+            {gt('King')}
           </button>
           <button
             onClick={() => setIsKing(false)}
@@ -142,7 +142,7 @@ export default function StaticDemo() {
                 : "border border-zinc-700 bg-zinc-800 text-zinc-400 hover:bg-zinc-700"
             }`}
           >
-            Queen
+            {gt('Queen')}
           </button>
         </div>
 
@@ -185,7 +185,7 @@ export default function StaticDemo() {
         <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-5">
           <p className="text-zinc-300">
             <T>
-              Hello, <Static>{name ? <Var>{name}</Var> : "everyone"}</Static>! You are very smart!
+              Hello, <Static><Branch branch={Boolean(name).toString()} true={<Var>{name}</Var>}>everyone</Branch></Static>! You are very smart!
             </T>
           </p>
         </div>
