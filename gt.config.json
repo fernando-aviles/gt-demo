@@ -11,5 +11,6 @@
     "es",
     "fr"
   ],
-  "_versionId": "fbe1f10ec576aaa8d6dbaa67d02ef565cad10131312d55a98611826b291e9cb5"
+  "_versionId": "fbe1f10ec576aaa8d6dbaa67d02ef565cad10131312d55a98611826b291e9cb5",
+  "baseUrl": "https://api.gtx.wtf"
 }
