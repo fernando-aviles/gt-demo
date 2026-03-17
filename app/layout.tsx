@@ -1,10 +1,14 @@
+import { getGT } from "gt-next/server";
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "GT Demo",
-  description: "General Translation library demo",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const gt = await getGT();
+  return {
+    title: "GT Demo",
+    description: gt("General Translation library demo"),
+  };
+}
 
 export default function RootLayout({
   children,
