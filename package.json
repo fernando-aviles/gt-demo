@@ -9,7 +9,7 @@
     "translate": "npx gtx-cli translate"
   },
   "dependencies": {
-    "gt-next": "^6.12.16",
+    "gt-next": "^6.13.10",
     "gtx-cli": "^2.6.25",
     "next": "^16.1.6",
     "react": "^19.2.4",
