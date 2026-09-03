@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+/* Drive dark mode from a `.dark` class on <html> instead of the OS media query,
+   so the theme toggle can override the system preference. */
+@custom-variant dark (&:where(.dark, .dark *));

@@ -1,17 +1,5 @@
 {
-  "0031229dab04747f": [
-    "Bonjour, ",
-    {
-      "c": {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
-      },
-      "i": 1,
-      "t": "Static"
-    },
-    " ! Vous êtes vraiment très intelligent !"
-  ],
+  "011474d09d180550": "Aperçu en direct",
   "0166c6a67350ccb9": [
     {
       "c": "Variables",
@@ -24,6 +12,53 @@
       "t": "p"
     }
   ],
+  "030ba7d9017f7a49": {
+    "c": [
+      {
+        "c": "Pro Plan",
+        "i": 2,
+        "t": "h3"
+      },
+      {
+        "c": "Tout ce dont vous avez besoin pour faire évoluer votre internationalisation.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": [
+          {
+            "c": "Traductions illimitées",
+            "i": 5,
+            "t": "li"
+          },
+          {
+            "c": "Support prioritaire",
+            "i": 6,
+            "t": "li"
+          },
+          {
+            "c": "Analytique avancée",
+            "i": 7,
+            "t": "li"
+          },
+          {
+            "c": "Flux de travail personnalisés",
+            "i": 8,
+            "t": "li"
+          }
+        ],
+        "i": 4,
+        "t": "ul"
+      },
+      {
+        "c": "Commencer",
+        "i": 9,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "0a0c19d58f43d88c": [
     "La ",
     {
@@ -39,6 +74,7 @@
     },
     "."
   ],
+  "0c34ce5568d30392": "Tableaux au niveau du module",
   "103f34010497be66": {
     "c": [
       {
@@ -55,188 +91,130 @@
     "i": 1,
     "t": "header"
   },
-  "10edbd30a1371897": {
+  "11d6b2e2c238cf85": {
     "c": [
       {
-        "c": "<Num> — Nombres",
+        "c": "Le composant T",
         "i": 2,
-        "t": "h2"
+        "t": "h1"
       },
       {
-        "c": "Formatez les nombres en fonction de la locale de l’utilisateur (par exemple 11 423 contre 11.423).",
+        "c": "Encapsulez n’importe quel contenu JSX dans le composant T pour le rendre traduisible. C’est la pierre angulaire de gt-next.",
         "i": 3,
         "t": "p"
-      },
-      {
-        "c": {
-          "c": [
-            "Vous avez ",
-            {
-              "i": 6,
-              "k": "_gt_n_6",
-              "v": "n"
-            },
-            " articles dans votre inventaire."
-          ],
-          "i": 5,
-          "t": "p"
-        },
-        "i": 4,
-        "t": "div"
       }
     ],
     "i": 1,
-    "t": "section"
+    "t": "header"
+  },
+  "129fc17df84b2541": {
+    "c": [
+      {
+        "c": "Chaînes derive()",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "L’équivalent sous forme de chaîne du composant Derive. Marquez la partie variable d’une chaîne afin que GT puisse pré-générer une traduction pour chaque variante.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "header"
+  },
+  "1c300317adb645c6": {
+    "c": [
+      {
+        "c": "John",
+        "i": 2,
+        "t": "button"
+      },
+      {
+        "c": "Maria",
+        "i": 3,
+        "t": "button"
+      },
+      {
+        "c": "vous tous",
+        "i": 4,
+        "t": "button"
+      },
+      {
+        "c": "tout le monde",
+        "i": 5,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "1eb5c294f26baf47": [
+    {
+      "c": "Composant T",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Encapsulez n’importe quel contenu JSX dans le composant T pour le rendre traduisible. La façon la plus simple d’internationaliser votre interface dès aujourd’hui !",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "220e15455b03cc01": {
+    "c": "Num met les nombres en forme avec élégance, mais le texte qui l’entoure reste le même quelle que soit la valeur. Essayez de modifier le nombre :",
+    "i": 1,
+    "t": "p"
   },
   "23cf06794bcb70ae": "Recherchez dans vos projets...",
-  "2a703afa84914bcf": {
+  "25b890675f5df8e4": "Un bloc d’interface réaliste : titres, texte, liste et bouton, tous traduits ensemble.",
+  "25c591637a7da98d": {
+    "c": "Examinez le champ de saisie et le bouton pour voir les attributs traduits.",
+    "i": 1,
+    "t": "p"
+  },
+  "289794617f1fdbc4": "Fiche produit",
+  "291edfcbfdf7fef3": "Dans de nombreuses langues, les articles et les adjectifs changent selon le genre du nom. Avec deux valeurs Derive, GT pré-génère chaque combinaison — quatre variantes dans ce cas.",
+  "2de763cf81d09f4d": {
     "c": [
       {
         "c": [
           {
-            "c": "Le composant T",
+            "c": "Homme",
             "i": 3,
-            "t": "h1"
+            "t": "button"
           },
           {
-            "c": "Enveloppez n’importe quel contenu JSX dans le composant T pour le rendre traduisible. C’est l’élément de base le plus fondamental de gt-next.",
+            "c": "Femme",
             "i": 4,
-            "t": "p"
+            "t": "button"
           }
         ],
         "i": 2,
-        "t": "header"
+        "t": "div"
       },
       {
         "c": [
           {
-            "c": "Texte simple",
+            "c": "Grand",
             "i": 6,
-            "t": "h2"
+            "t": "button"
           },
           {
-            "c": [
-              {
-                "c": "Bienvenue sur notre plateforme",
-                "i": 8,
-                "t": "h3"
-              },
-              {
-                "c": "Nous aidons les équipes à créer des produits qui fonctionnent pour tout le monde, quelle que soit la langue qu’elles parlent. Nos outils rendent l’internationalisation facile.",
-                "i": 9,
-                "t": "p"
-              }
-            ],
+            "c": "Intelligent",
             "i": 7,
-            "t": "div"
+            "t": "button"
           }
         ],
         "i": 5,
-        "t": "section"
-      },
-      {
-        "c": [
-          {
-            "c": "Éléments imbriqués",
-            "i": 11,
-            "t": "h2"
-          },
-          {
-            "c": {
-              "c": [
-                "Le composant T gère ",
-                {
-                  "c": "le texte en gras",
-                  "i": 14,
-                  "t": "strong"
-                },
-                ", ",
-                {
-                  "c": "le texte en italique",
-                  "i": 15,
-                  "t": "em"
-                },
-                " et même les ",
-                {
-                  "c": "liens",
-                  "i": 16,
-                  "t": "a"
-                },
-                " de manière transparente. L’ensemble du bloc est traduit comme une seule unité, tout en préservant la structure."
-              ],
-              "i": 13,
-              "t": "p"
-            },
-            "i": 12,
-            "t": "div"
-          }
-        ],
-        "i": 10,
-        "t": "section"
-      },
-      {
-        "c": [
-          {
-            "c": "Exemple de Fiche produit",
-            "i": 18,
-            "t": "h2"
-          },
-          {
-            "c": [
-              {
-                "c": "Pro Plan",
-                "i": 20,
-                "t": "h3"
-              },
-              {
-                "c": "Tout ce dont vous avez besoin pour faire passer votre stratégie d’internationalisation à l’échelle.",
-                "i": 21,
-                "t": "p"
-              },
-              {
-                "c": [
-                  {
-                    "c": "Traductions illimitées",
-                    "i": 23,
-                    "t": "li"
-                  },
-                  {
-                    "c": "Support prioritaire",
-                    "i": 24,
-                    "t": "li"
-                  },
-                  {
-                    "c": "Analytique avancée",
-                    "i": 25,
-                    "t": "li"
-                  },
-                  {
-                    "c": "Flux de travail personnalisés",
-                    "i": 26,
-                    "t": "li"
-                  }
-                ],
-                "i": 22,
-                "t": "ul"
-              },
-              {
-                "c": "Commencer",
-                "i": 27,
-                "t": "button"
-              }
-            ],
-            "i": 19,
-            "t": "div"
-          }
-        ],
-        "i": 17,
-        "t": "section"
+        "t": "div"
       }
     ],
     "i": 1,
     "t": "div"
   },
   "307ab8dab5202089": "Composant T",
+  "31145b99aaea9681": "Interpolez un appel à derive() dans un littéral de modèle passé à gt(). Toutes les valeurs de retour possibles sont prétraduites, le basculement est donc instantané.",
   "31b59b6bdc8567ce": [
     "Le ",
     {
@@ -247,6 +225,19 @@
     " était aimé de tous."
   ],
   "334b80fab698df68": "Paiement reçu — merci !",
+  "34f55c9df5d477b2": {
+    "c": [
+      "Vous avez ",
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " articles dans votre inventaire."
+    ],
+    "i": 1,
+    "t": "p"
+  },
   "374553bdde9feef0": "Chaînes",
   "3d9cf18daec398b2": "Laissez ce champ vide pour utiliser la valeur par défaut",
   "3edd8c4c6a0d12b5": {
@@ -297,18 +288,25 @@
     "i": 1,
     "t": "Branch"
   },
-  "42f44fdcf626e724": [
-    {
-      "c": "Composant T",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Enveloppez n’importe quel contenu JSX dans le composant T pour le rendre traduisible. C’est le moyen le plus simple d’internationaliser votre interface.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
+  "3fe8b6c62a0d9866": {
+    "c": [
+      {
+        "c": "Roi",
+        "i": 2,
+        "t": "button"
+      },
+      {
+        "c": "Reine",
+        "i": 3,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "40369e5934d94f8d": "Passer au mode clair",
+  "439b7626525b9631": "Nombre :",
+  "44577f3c371ad780": "Tout ensemble — Récapitulatif de la commande",
   "480bbfa36edcb04f": "{name} vient de rejoindre votre équipe.",
   "498d4626401a460f": [
     {
@@ -322,11 +320,14 @@
       "t": "p"
     }
   ],
+  "4a32f7124b5d1dcf": "Utilisez des chaînes traduites pour les espaces réservés, les aria-labels et les titres — partout où JSX ne peut pas être utilisé.",
   "4ac54d66289d4391": {
     "c": "Trois composants différents — la navigation d’en-tête, la barre latérale et cette démo — importent tous le même tableau et appellent useMessages() pour obtenir les libellés traduits. Les chaînes sont définies une seule fois et traduites partout.",
     "i": 1,
     "t": "p"
   },
+  "4c046652335430ed": "Messages dynamiques",
+  "4c191e8e60e497ef": "Pluriel",
   "4d4f3195b0120467": [
     "La ",
     {
@@ -342,20 +343,58 @@
     },
     "."
   ],
-  "4dba4e534bd37571": "Static",
+  "4e8c284f615f92bf": "Exemple suivant",
+  "57a3e2490aeb00e6": "Prix",
+  "5aaf559de9675f95": {
+    "c": [
+      {
+        "c": "Traduction de chaînes",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Utilisez le hook useGT() pour traduire des chaînes de caractères simples — idéal pour les attributs, les titres, les espaces réservés et tout contexte où il n’est pas possible d’encapsuler du contenu dans du JSX.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "header"
+  },
   "5b1f4f662ee02ff2": "Votre profil a été mis à jour.",
-  "5e6ef6afa2076452": [
-    {
-      "c": "Chaînes partagées entre les composants",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Les libellés de navigation que vous voyez dans l’en‑tête et la barre latérale sont définis une seule fois avec msg() dans un fichier partagé, puis résolus avec useMessages() dans chaque composant. Voici ces mêmes chaînes, également résolues dans ce composant\u0000 :",
-      "i": 2,
-      "t": "p"
-    }
-  ],
+  "5c513f238028fb7e": {
+    "c": [
+      {
+        "c": [
+          "Votre total est de ",
+          {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          "."
+        ],
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": [
+          "Équivalent : ",
+          {
+            "i": 5,
+            "k": "_gt_cost_5",
+            "v": "c"
+          },
+          "."
+        ],
+        "i": 4,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "5d097eb6739c70c3": "chaîne derive()",
   "62755d4fcd72e5e9": {
     "c": [
       {
@@ -371,6 +410,7 @@
     "i": 1,
     "t": "div"
   },
+  "6664c4c9d932887f": "Affichez différentes traductions selon une valeur — comme le statut, le genre ou le rôle. Chaque Branch est envoyée en traduction.",
   "66a519090c339917": "msg()",
   "6f99d942ea5a3306": [
     {
@@ -384,15 +424,16 @@
       "t": "p"
     }
   ],
-  "7452adf72e55fabe": {
+  "6ff10155944145f8": "Les variables formatent les valeurs, mais ne peuvent pas modifier la phrase qui les entoure. C’est le rôle de Plural.",
+  "7022f3a2a9a8c081": {
     "c": [
       {
-        "c": "Static",
+        "c": "Derive",
         "i": 2,
         "t": "h1"
       },
       {
-        "c": "Utilisez le composant Static pour marquer les parties d’une traduction qui peuvent varier à l’exécution. GT prégénère des traductions pour chaque variante possible, afin que le passage d’une variante à l’autre soit instantané — aucune traduction à l’exécution n’est nécessaire.",
+        "c": "Utilisez le composant Derive pour marquer les parties d’une traduction qui sont analysables statiquement, mais peuvent varier à l’exécution. GT pré-génère les traductions pour chaque variante possible : le passage de l’une à l’autre est ainsi instantané, sans traduction à l’exécution.",
         "i": 3,
         "t": "p"
       }
@@ -400,211 +441,48 @@
     "i": 1,
     "t": "header"
   },
-  "7c7624d066dd043e": {
+  "70d0c2f3af8e5b8b": {
     "c": [
+      "Le composant T gère parfaitement le ",
       {
-        "c": "<DateTime> — Dates et heures",
+        "c": "texte en gras",
         "i": 2,
-        "t": "h2"
+        "t": "strong"
       },
+      ", le ",
       {
-        "c": "Affichez les dates et heures dans un format adapté à la locale.",
+        "c": "texte en italique",
         "i": 3,
-        "t": "p"
+        "t": "em"
       },
+      " et même les ",
       {
-        "c": {
-          "c": [
-            "Commande passée le ",
-            {
-              "i": 6,
-              "k": "_gt_date_6",
-              "v": "d"
-            },
-            "."
-          ],
-          "i": 5,
-          "t": "p"
-        },
+        "c": "liens",
         "i": 4,
-        "t": "div"
-      }
+        "t": "a"
+      },
+      ". L’ensemble du bloc est traduit comme une seule unité, tout en préservant sa structure."
     ],
     "i": 1,
-    "t": "section"
+    "t": "p"
   },
-  "7d211b920c9c7c1f": {
-    "c": [
-      {
-        "c": "<Plural> — Pluralisation",
+  "72d1ce40dbe7bc61": [
+    "Bonjour ",
+    {
+      "c": {
         "i": 2,
-        "t": "h2"
+        "k": "_gt_value_2",
+        "v": "v"
       },
-      {
-        "c": "Applique automatiquement la bonne forme du pluriel selon les règles CLDR de la langue cible.",
-        "i": 3,
-        "t": "p"
-      },
-      {
-        "c": [
-          {
-            "c": "Nombre :",
-            "i": 5,
-            "t": "label"
-          },
-          {
-            "c": "-",
-            "i": 6,
-            "t": "button"
-          },
-          {
-            "c": {
-              "i": 8,
-              "k": "_gt_n_8",
-              "v": "n"
-            },
-            "i": 7,
-            "t": "span"
-          },
-          {
-            "c": "+",
-            "i": 9,
-            "t": "button"
-          }
-        ],
-        "i": 4,
-        "t": "div"
-      },
-      {
-        "c": [
-          {
-            "c": {
-              "c": {
-                "c": [
-                  "Vous avez ",
-                  {
-                    "i": 14,
-                    "k": "_gt_n_14",
-                    "v": "n"
-                  },
-                  " nouvelles notifications."
-                ],
-                "d": {
-                  "b": {
-                    "many": [
-                      "Vous avez ",
-                      {
-                        "i": 14,
-                        "k": "_gt_n_14",
-                        "v": "n"
-                      },
-                      " nouvelles notifications."
-                    ],
-                    "one": {
-                      "c": [
-                        "Vous avez ",
-                        {
-                          "i": 15,
-                          "k": "_gt_n_15",
-                          "v": "n"
-                        },
-                        " nouvelle notification."
-                      ],
-                      "i": 14,
-                      "t": "C14"
-                    },
-                    "other": [
-                      "Vous avez ",
-                      {
-                        "i": 14,
-                        "k": "_gt_n_14",
-                        "v": "n"
-                      },
-                      " nouvelles notifications."
-                    ],
-                    "zero": {
-                      "c": "Vous n'avez aucune nouvelle notification.",
-                      "i": 14,
-                      "t": "C14"
-                    }
-                  },
-                  "t": "p"
-                },
-                "i": 13,
-                "t": "Plural"
-              },
-              "i": 12,
-              "t": "p"
-            },
-            "i": 11,
-            "t": "div"
-          },
-          {
-            "c": {
-              "c": {
-                "c": [
-                  {
-                    "i": 18,
-                    "k": "_gt_n_18",
-                    "v": "n"
-                  },
-                  " articles dans votre panier."
-                ],
-                "d": {
-                  "b": {
-                    "many": [
-                      {
-                        "i": 18,
-                        "k": "_gt_n_18",
-                        "v": "n"
-                      },
-                      " articles dans votre panier."
-                    ],
-                    "one": {
-                      "c": [
-                        {
-                          "i": 19,
-                          "k": "_gt_n_19",
-                          "v": "n"
-                        },
-                        " article dans votre panier."
-                      ],
-                      "i": 18,
-                      "t": "C18"
-                    },
-                    "other": [
-                      {
-                        "i": 18,
-                        "k": "_gt_n_18",
-                        "v": "n"
-                      },
-                      " articles dans votre panier."
-                    ],
-                    "zero": {
-                      "c": "Vous n'avez aucun article dans votre panier.",
-                      "i": 18,
-                      "t": "C18"
-                    }
-                  },
-                  "t": "p"
-                },
-                "i": 17,
-                "t": "Plural"
-              },
-              "i": 16,
-              "t": "p"
-            },
-            "i": 15,
-            "t": "div"
-          }
-        ],
-        "i": 10,
-        "t": "div"
-      }
-    ],
-    "i": 1,
-    "t": "section"
-  },
+      "i": 1,
+      "t": "Static"
+    },
+    " ! Je suis ravi que vous soyez ici !"
+  ],
+  "745157d23475faea": "Encapsulez un bloc de JSX dans le composant T et chaque chaîne qu’il contient devient traduisible.",
+  "77f63da9a7e2287c": "Interpolez une valeur de chaîne dynamique qui reste telle quelle (non traduite).",
+  "78e16a67ab37558f": "Applique automatiquement la forme plurielle appropriée selon les règles CLDR de la langue cible.",
+  "7a7c1485d5723806": "Traduisez les notifications toast, les alertes et les autres chaînes créées à l’exécution.",
   "807c7f829ffffc0a": [
     {
       "c": "Traductions de Chaînes",
@@ -617,27 +495,30 @@
       "t": "p"
     }
   ],
-  "8f0881f6125b8aae": [
+  "8339c16d6aae5755": [
     {
-      "c": "<Branch> — Contenu conditionnel",
+      "c": "Derive",
       "i": 1,
       "t": "h2"
     },
     {
-      "c": "Affichez différentes traductions en fonction d’une valeur — comme le statut, le genre ou le rôle. L’ensemble du bloc est envoyé à la traduction.",
+      "c": "Gérez la fragmentation des phrases et le contenu réutilisable sans compromettre les accords, la conjugaison ni les changements d’ordre des mots.",
       "i": 2,
       "t": "p"
     }
   ],
-  "913b7d969a3300f1": {
+  "867c2900b69c7ea3": "Attributs HTML",
+  "88da1798d573d0d8": "Affichez les dates et les heures dans un format adapté aux paramètres régionaux.",
+  "8c7a0d2fec365abc": "Définissez une chaîne une seule fois avec msg() dans un fichier partagé, puis décodez-la avec useMessages() partout où elle est affichée.",
+  "915b5ed1731a77fd": {
     "c": [
       {
-        "c": "Démo General Translation",
+        "c": "General Translation",
         "i": 2,
         "t": "h1"
       },
       {
-        "c": "Une démo en direct de la bibliothèque de traduction gt-next. Chacune des pages ci‑dessous présente une fonctionnalité différente\u0000 : modifiez le code, voyez les traductions se mettre à jour et observez l’interface utilisateur évoluer en temps réel.",
+        "c": "Une présentation guidée en direct de la bibliothèque de traduction gt-next. Chaque page ci-dessous présente une fonctionnalité différente : modifiez le code, lancez les traductions et observez l’interface se mettre à jour en temps réel. Voici une nouvelle mise à jour.",
         "i": 3,
         "t": "p"
       }
@@ -678,217 +559,8 @@
     "i": 1,
     "t": "header"
   },
+  "9440c6ea476bf4d5": "Dates et heures",
   "95e568730bdde867": "Variables",
-  "967c9b6319fe2d50": {
-    "c": [
-      {
-        "c": [
-          {
-            "c": "Traductions de Chaînes",
-            "i": 3,
-            "t": "h1"
-          },
-          {
-            "c": "Utilisez le hook useGT() pour traduire des chaînes simples — c’est idéal pour les attributs, les titres, les espaces réservés et tout contexte où vous ne pouvez pas entourer le contenu avec du JSX.",
-            "i": 4,
-            "t": "p"
-          }
-        ],
-        "i": 2,
-        "t": "header"
-      },
-      {
-        "c": [
-          {
-            "c": "Traduction simple de chaînes",
-            "i": 6,
-            "t": "h2"
-          },
-          {
-            "c": "Passez une chaîne avec des espaces réservés de style ICU et des valeurs de variables.",
-            "i": 7,
-            "t": "p"
-          },
-          {
-            "c": [
-              {
-                "c": "Nom :",
-                "i": 9,
-                "t": "label"
-              },
-              {
-                "i": 10,
-                "t": "input"
-              }
-            ],
-            "i": 8,
-            "t": "div"
-          },
-          {
-            "c": {
-              "c": {
-                "i": 13,
-                "k": "_gt_value_13",
-                "v": "v"
-              },
-              "i": 12,
-              "t": "p"
-            },
-            "i": 11,
-            "t": "div"
-          }
-        ],
-        "i": 5,
-        "t": "section"
-      },
-      {
-        "c": [
-          {
-            "c": "Titres de page et métadonnées",
-            "i": 15,
-            "t": "h2"
-          },
-          {
-            "c": "Traduisez les chaînes utilisées comme titres de document ou autres métadonnées.",
-            "i": 16,
-            "t": "p"
-          },
-          {
-            "c": {
-              "c": [
-                {
-                  "c": "document.title",
-                  "i": 19,
-                  "t": "span"
-                },
-                {
-                  "c": {
-                    "i": 21,
-                    "k": "_gt_value_21",
-                    "v": "v"
-                  },
-                  "i": 20,
-                  "t": "span"
-                }
-              ],
-              "i": 18,
-              "t": "div"
-            },
-            "i": 17,
-            "t": "div"
-          }
-        ],
-        "i": 14,
-        "t": "section"
-      },
-      {
-        "c": [
-          {
-            "c": "Attributs HTML",
-            "i": 23,
-            "t": "h2"
-          },
-          {
-            "c": "Utilisez des chaînes traduites pour les espaces réservés, les aria-label et les titres.",
-            "i": 24,
-            "t": "p"
-          },
-          {
-            "c": [
-              {
-                "c": [
-                  {
-                    "c": "placeholder",
-                    "i": 27,
-                    "t": "label"
-                  },
-                  {
-                    "i": 28,
-                    "t": "input"
-                  }
-                ],
-                "i": 26,
-                "t": "div"
-              },
-              {
-                "c": [
-                  {
-                    "c": "aria-label",
-                    "i": 30,
-                    "t": "label"
-                  },
-                  {
-                    "c": [
-                      "✕ ",
-                      {
-                        "c": {
-                          "i": 33,
-                          "k": "_gt_value_33",
-                          "v": "v"
-                        },
-                        "i": 32,
-                        "t": "span"
-                      }
-                    ],
-                    "i": 31,
-                    "t": "button"
-                  }
-                ],
-                "i": 29,
-                "t": "div"
-              }
-            ],
-            "i": 25,
-            "t": "div"
-          }
-        ],
-        "i": 22,
-        "t": "section"
-      },
-      {
-        "c": [
-          {
-            "c": "Messages dynamiques",
-            "i": 35,
-            "t": "h2"
-          },
-          {
-            "c": "Traduisez les notifications de type toast, les alertes et d’autres chaînes dynamiques.",
-            "i": 36,
-            "t": "p"
-          },
-          {
-            "c": {
-              "c": [
-                {
-                  "c": "i",
-                  "i": 39,
-                  "t": "span"
-                },
-                {
-                  "c": {
-                    "i": 41,
-                    "k": "_gt_value_41",
-                    "v": "v"
-                  },
-                  "i": 40,
-                  "t": "p"
-                }
-              ],
-              "i": 38,
-              "t": "div"
-            },
-            "i": 37,
-            "t": "div"
-          }
-        ],
-        "i": 34,
-        "t": "section"
-      }
-    ],
-    "i": 1,
-    "t": "div"
-  },
   "9bf584fe3eedcf71": [
     "Vous avez ",
     {
@@ -898,18 +570,38 @@
     },
     " articles dans votre panier."
   ],
-  "a3bbab4f5ec2f9dd": [
-    {
-      "c": "Traductions genrées",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Dans de nombreuses langues, les articles et les adjectifs changent en fonction du genre du nom. Avec deux valeurs Static, GT pré-génère chaque combinaison — ici, cela fait 2 × 2 = 4 variantes.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
+  "9f14527a7f924195": {
+    "c": [
+      "Bonjour, ",
+      {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      " ! Bon retour sur votre tableau de bord."
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "9fe45c8f2eed5ffd": "Bonjour John ! Tu es beau.",
+  "a0b9788a5076b3e4": "Variables de chaîne",
+  "a6f2a657e42eab7e": {
+    "c": [
+      {
+        "c": "Bienvenue sur notre plateforme",
+        "i": 2,
+        "t": "h3"
+      },
+      {
+        "c": "Nous aidons les équipes à créer des produits qui fonctionnent pour tout le monde, quelle que soit la langue parlée. Nos outils simplifient l’internationalisation.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "a94faea6d8892a9c": "Autre exemple",
   "ab4b09560831ca7d": [
     "La ",
     {
@@ -919,100 +611,164 @@
     },
     " était aimée de tous."
   ],
-  "ac7f0156e4260036": [
-    {
-      "c": "Autre exemple",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Basculez entre les variantes et observez comment la traduction environnante change — les articles, les adjectifs et même les formes verbales peuvent s’adapter dans la langue cible.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
-  "b60ea8cff6f90006": [
-    {
-      "c": "Static",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Gérez la fragmentation des phrases et le contenu réutilisable sans sacrifier les accords, les conjugaisons ni la flexibilité de l’ordre des mots.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
-  "c00c5f78ae27ad86": "Votre période d’essai expire dans 3 jours.",
-  "c614908f72456e69": [
-    {
-      "c": "Tableaux au niveau du module",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Encodez un tableau de chaînes avec msg() en dehors du composant, puis résolvez-les avec useMessages() au moment du rendu.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
-  "cc0d118f4bbc6273": [
-    "Bonjour, ",
-    {
-      "c": "tout le monde",
-      "i": 1,
-      "t": "Static"
-    },
-    " ! Vous êtes vraiment très intelligents !"
-  ],
-  "cd2db00af24606fc": {
+  "aef9a438e420183b": "Derive",
+  "b0a097c35c9b7645": {
     "c": [
+      "Commande passée le ",
       {
-        "c": "<Var> — Variables de chaîne",
         "i": 2,
-        "t": "h2"
+        "k": "_gt_date_2",
+        "v": "d"
       },
-      {
-        "c": "Interpolez une valeur de chaîne dynamique qui reste telle quelle (non traduite).",
-        "i": 3,
-        "t": "p"
-      },
-      {
-        "c": {
-          "c": [
-            "Bonjour, ",
-            {
-              "i": 6,
-              "k": "_gt_value_6",
-              "v": "v"
-            },
-            " ! Bon retour sur votre tableau de bord."
-          ],
-          "i": 5,
-          "t": "p"
-        },
-        "i": 4,
-        "t": "div"
-      }
+      "."
     ],
     "i": 1,
-    "t": "section"
+    "t": "p"
   },
-  "d22532a5e23ca78e": "Impossible de se connecter au serveur.",
-  "dbf702acfa108893": [
+  "b0a1d3d4569b55fa": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " articles dans votre panier."
+    ],
+    "d": {
+      "b": {
+        "many": [
+          {
+            "i": 2,
+            "k": "_gt_n_2",
+            "v": "n"
+          },
+          " article dans votre panier."
+        ],
+        "one": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " article dans votre panier."
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": [
+          {
+            "i": 2,
+            "k": "_gt_n_2",
+            "v": "n"
+          },
+          " articles dans votre panier."
+        ],
+        "zero": {
+          "c": "Vous n'avez aucun article dans votre panier.",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "b1358340e9500f7f": "Chaînes partagées entre composants",
+  "b1dd7ca61b02ba8c": "Passez une chaîne avec des espaces réservés de style ICU et les valeurs pour les renseigner.",
+  "b21f3cc6e6b8bdf0": "Bonjour tout le monde ! Vous êtes magnifiques.",
+  "b2b32db8f2f1f214": [
     {
-      "c": "Mais qu’en est-il de la gestion du pluriel ?",
+      "c": "Chaîne derive()",
       "i": 1,
       "t": "h2"
     },
     {
-      "c": [
-        "<Num> formate très bien les nombres, mais le texte autour reste le même, quelle que soit la valeur. Essayez de modifier le nombre :"
-      ],
+      "c": "Utilisez derive() dans les chaînes gt() lorsqu’un appel de fonction analysable statiquement détermine une partie de la phrase.",
       "i": 2,
       "t": "p"
     }
   ],
+  "b3cc8fa3a9bc0b86": "Traduisez les chaînes utilisées comme titres de document ou autres métadonnées.",
+  "b8aa0f199727c6f0": "Bonjour à tous ! Vous êtes magnifiques.",
+  "b9440dd9ef01b665": "Derive avec Var",
+  "bb885ce6a53d60d9": "Nombres",
+  "bcc47e9b788ab2fe": "Combinez Derive et Var pour gérer des valeurs libres avec des valeurs de repli prédéfinies. Un nom vide utilise la variante « tout le monde » prétraduite ; un nom saisi est inséré tel quel.",
+  "c00c5f78ae27ad86": "Votre période d’essai expire dans 3 jours.",
+  "c382885b656ca7bb": "Affichez les prix formatés selon les paramètres régionaux et la devise cibles.",
+  "c81d589214c56015": {
+    "c": [
+      "Vous avez ",
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " nouvelles notifications."
+    ],
+    "d": {
+      "b": {
+        "many": [
+          "Vous avez ",
+          {
+            "i": 2,
+            "k": "_gt_n_2",
+            "v": "n"
+          },
+          " nouvelle notification."
+        ],
+        "one": {
+          "c": [
+            "Vous avez ",
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " nouvelle notification."
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": [
+          "Vous avez ",
+          {
+            "i": 2,
+            "k": "_gt_n_2",
+            "v": "n"
+          },
+          " nouvelles notifications."
+        ],
+        "zero": {
+          "c": "Vous n'avez aucune nouvelle notification.",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "c822608899917142": "Nom :",
+  "ca6ace717cc7b934": "Exemple précédent",
+  "cfd0098ab5cc5410": "Titres de page et métadonnées",
+  "d1d8281866e21a83": "Afficher/masquer l’extrait de code",
+  "d22532a5e23ca78e": "Impossible de se connecter au serveur.",
+  "d407f900b295b0e2": [
+    "Bonjour ",
+    {
+      "c": "à toutes et à tous",
+      "i": 1,
+      "t": "Derive"
+    },
+    " ! Je suis ravi que vous soyez là !"
+  ],
+  "d5e37efd7faa038b": "Mais qu’en est-il du pluriel ?",
+  "d7302e36ddd16597": "Éléments imbriqués",
+  "d8342a3cca127869": "Texte simple",
+  "d9bdf44517e804d3": "Statut :",
   "dd33f66fbc98a5e7": [
     "Le ",
     {
@@ -1028,113 +784,66 @@
     },
     "."
   ],
-  "dda765b9f7730649": {
+  "dd6e2519420519cb": "Traduction de chaîne simple",
+  "ddd55703d3f3bc3c": {
     "c": [
+      "Bonjour ",
       {
-        "c": "<Currency> — Prix",
         "i": 2,
-        "t": "h2"
+        "k": "_gt_value_2",
+        "v": "v"
       },
+      ", votre commande de ",
       {
-        "c": "Affichez les prix formatés pour la locale et la devise cibles.",
         "i": 3,
-        "t": "p"
+        "k": "_gt_n_3",
+        "v": "n"
       },
+      " articles, d’un montant total de ",
       {
-        "c": [
-          {
-            "c": [
-              "Votre total est de ",
-              {
-                "i": 6,
-                "k": "_gt_cost_6",
-                "v": "c"
-              },
-              "."
-            ],
-            "i": 5,
-            "t": "p"
-          },
-          {
-            "c": [
-              "Équivalent : ",
-              {
-                "i": 8,
-                "k": "_gt_cost_8",
-                "v": "c"
-              },
-              "."
-            ],
-            "i": 7,
-            "t": "p"
-          }
-        ],
         "i": 4,
-        "t": "div"
-      }
+        "k": "_gt_cost_4",
+        "v": "c"
+      },
+      ", a été passée le ",
+      {
+        "i": 5,
+        "k": "_gt_date_5",
+        "v": "d"
+      },
+      "."
     ],
     "i": 1,
-    "t": "section"
+    "t": "p"
   },
-  "e76b7f8a74c123a7": [
+  "de5bce2ba3dfbb56": "Tous les composants de variables réunis dans une même phrase traduite.",
+  "df0a79496a271cb0": "Accéder à l’exemple {number}",
+  "e1457eb2c2d752d1": [
+    "Exemple ",
     {
-      "c": "Static avec Var",
       "i": 1,
-      "t": "h2"
+      "k": "_gt_n_1",
+      "v": "n"
     },
+    " sur ",
     {
-      "c": "Combinez Static avec Var pour gérer des valeurs dynamiques aux côtés de valeurs par défaut fixes. Lorsque le nom est vide, « everyone » est une variante Static prétradute. Lorsqu’il est renseigné, Var l’indique comme une variable d’exécution non traduite.",
       "i": 2,
-      "t": "p"
+      "k": "_gt_n_2",
+      "v": "n"
     }
   ],
+  "e2d2f7cdacaee424": "Chaînes dérivées",
+  "e35256b611974c6e": "Traductions selon le genre",
+  "e7588632064e0364": "Copié",
   "eb06c9bdf4069241": "Tableau de bord — {count} nouvelles mises à jour",
-  "eec2a278b3c93214": {
-    "c": [
-      {
-        "c": "Tout ensemble — Récapitulatif de la commande",
-        "i": 2,
-        "t": "h2"
-      },
-      {
-        "c": {
-          "c": [
-            "Bonjour ",
-            {
-              "i": 5,
-              "k": "_gt_value_5",
-              "v": "v"
-            },
-            ", votre commande de ",
-            {
-              "i": 6,
-              "k": "_gt_n_6",
-              "v": "n"
-            },
-            " articles pour un total de ",
-            {
-              "i": 7,
-              "k": "_gt_cost_7",
-              "v": "c"
-            },
-            " a été passée le ",
-            {
-              "i": 8,
-              "k": "_gt_date_8",
-              "v": "d"
-            },
-            "."
-          ],
-          "i": 4,
-          "t": "p"
-        },
-        "i": 3,
-        "t": "div"
-      }
-    ],
+  "ebb81242072e0cd3": "Basculez entre les variantes et observez comment la traduction qui les entoure change. Les articles, les adjectifs et même les formes verbales peuvent s’adapter dans la langue cible.",
+  "ed9bd1f664ce97d9": {
+    "c": "Les libellés de navigation de l’en-tête et de la barre latérale sont définis une seule fois avec msg() dans un fichier partagé, puis décodés avec useMessages() dans chaque composant. Voici ces mêmes chaînes, également résolues dans ce composant :",
     "i": 1,
-    "t": "section"
+    "t": "p"
   },
+  "f1bbbd865fa36149": "Formatez les nombres selon les paramètres régionaux de l’utilisateur (11,423 en anglais, 11.423 en allemand).",
+  "f249ff80891e5443": "Passer au mode sombre",
   "f3b155dd55b64e72": [
     "Le ",
     {
@@ -1150,7 +859,12 @@
     },
     "."
   ],
+  "fb032e0cda6873b6": "Le balisage en ligne, comme le gras, l’italique et les liens, est préservé — tout le bloc est traduit comme une seule unité.",
   "fb8be6f07595be29": "Fermer le panneau des paramètres",
+  "fbf7e9a8155504b4": "Encodez un tableau de chaînes avec msg() en dehors du composant, puis décodez-les avec useMessages() au moment du rendu.",
   "fce281731073b6db": "Bonjour, {name} ! Heureux de vous revoir.",
-  "fd5bfc947da52ac9": "Plural et Branch"
+  "fd5bfc947da52ac9": "Plural et Branch",
+  "fdcf8feb733e2d66": "Bonjour Maria ! Tu es belle.",
+  "ff2a052c5b4cccec": "Contenu conditionnel",
+  "ffd3cdd328e21c9d": "Copier"
 }

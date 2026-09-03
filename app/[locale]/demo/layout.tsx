@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/app/components/LocaleLink";
 import { T, useMessages } from "gt-next";
 import { demoPages } from "./demoPages";
 
@@ -20,7 +20,7 @@ export default function DemoLayout({
             <Link
               key={page.href}
               href={page.href}
-              className="rounded-md px-3 py-2 text-sm text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-white"
+              className="rounded-md px-3 py-2 text-sm text-zinc-600 dark:text-zinc-400 transition-colors hover:bg-zinc-200 dark:hover:bg-zinc-800 hover:text-zinc-900 dark:hover:text-white"
             >
               {m(page.label)}
             </Link>

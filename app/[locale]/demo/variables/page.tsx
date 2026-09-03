@@ -1,21 +1,79 @@
-"use client";
+import { T, msg } from "gt-next";
+import DemoStepper from "../_components/DemoStepper";
+import { withSource } from "../_lib/source";
+import StringVariables from "./_examples/StringVariables";
+import Numbers from "./_examples/Numbers";
+import Currencies from "./_examples/Currencies";
+import Dates from "./_examples/Dates";
+import OrderSummary from "./_examples/OrderSummary";
+import PluralizationTeaser from "./_examples/PluralizationTeaser";
 
-import { useState } from "react";
-import { T, Var, Num, Currency, DateTime } from "gt-next";
+const DIR = "app/[locale]/demo/variables/_examples";
 
-export default function VariablesDemo() {
-  const userName = "Alex";
-  const itemCount = 11423;
-  const price = 29.99;
-  const orderDate = new Date("2025-03-15T10:30:00");
-  const [teaserCount, setTeaserCount] = useState(1);
+export default async function VariablesDemo() {
+  const steps = await withSource([
+    {
+      title: msg("String Variables"),
+      tag: "<Var>",
+      description: msg(
+        "Interpolate a dynamic string value that stays as-is (not translated)."
+      ),
+      file: `${DIR}/StringVariables.tsx`,
+      node: <StringVariables />,
+    },
+    {
+      title: msg("Numbers"),
+      tag: "<Num>",
+      description: msg(
+        "Format numbers according to the user's locale (11,423 in English, 11.423 in German)."
+      ),
+      file: `${DIR}/Numbers.tsx`,
+      node: <Numbers />,
+    },
+    {
+      title: msg("Prices"),
+      tag: "<Currency>",
+      description: msg(
+        "Display prices formatted for the target locale and currency."
+      ),
+      file: `${DIR}/Currencies.tsx`,
+      node: <Currencies />,
+    },
+    {
+      title: msg("Dates & Times"),
+      tag: "<DateTime>",
+      description: msg(
+        "Render dates and times in the locale-appropriate format."
+      ),
+      file: `${DIR}/Dates.tsx`,
+      node: <Dates />,
+    },
+    {
+      title: msg("All Together — Order Summary"),
+      description: msg(
+        "Every variable component composed into a single translated sentence."
+      ),
+      file: `${DIR}/OrderSummary.tsx`,
+      node: <OrderSummary />,
+    },
+    {
+      title: msg("But what about pluralization?"),
+      description: msg(
+        "Variables format values, but they cannot change the sentence around them. That is what Plural is for."
+      ),
+      file: `${DIR}/PluralizationTeaser.tsx`,
+      node: <PluralizationTeaser />,
+    },
+  ]);
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-8">
       <T>
         <header>
-          <h1 className="mb-2 text-3xl font-bold text-white">Variables</h1>
-          <p className="text-zinc-400">
+          <h1 className="mb-2 text-3xl font-bold text-zinc-900 dark:text-white">
+            Variables
+          </h1>
+          <p className="text-zinc-600 dark:text-zinc-400">
             Use variable components to interpolate dynamic values inside
             translated content. Values are automatically formatted for the
             target locale.
@@ -23,136 +81,7 @@ export default function VariablesDemo() {
         </header>
       </T>
 
-      <T>
-        <section className="rounded-xl border border-zinc-800 bg-zinc-900 p-6">
-          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-500">
-            {"<Var> — String Variables"}
-          </h2>
-          <p className="mb-4 text-xs text-zinc-500">
-            Interpolate a dynamic string value that stays as-is (not
-            translated).
-          </p>
-          <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-5">
-            <p className="text-zinc-300">
-              Hello, <Var>{userName}</Var>! Welcome back to your dashboard.
-            </p>
-          </div>
-        </section>
-      </T>
-
-      <T>
-        <section className="rounded-xl border border-zinc-800 bg-zinc-900 p-6">
-          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-500">
-            {"<Num> — Numbers"}
-          </h2>
-          <p className="mb-4 text-xs text-zinc-500">
-            Format numbers according to the user's locale (e.g. 11,423 vs
-            11.423).
-          </p>
-          <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-5">
-            <p className="text-zinc-300">
-              You have <Num>{itemCount}</Num> items in your inventory.
-            </p>
-          </div>
-        </section>
-      </T>
-
-      <T>
-        <section className="rounded-xl border border-zinc-800 bg-zinc-900 p-6">
-          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-500">
-            {"<Currency> — Prices"}
-          </h2>
-          <p className="mb-4 text-xs text-zinc-500">
-            Display prices formatted for the target locale and currency.
-          </p>
-          <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-5">
-            <p className="text-zinc-300">
-              Your total is <Currency currency="USD">{price}</Currency>.
-            </p>
-            <p className="mt-2 text-zinc-300">
-              Equivalent: <Currency currency="EUR">{price * 0.92}</Currency>.
-            </p>
-          </div>
-        </section>
-      </T>
-
-      <T>
-        <section className="rounded-xl border border-zinc-800 bg-zinc-900 p-6">
-          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-500">
-            {"<DateTime> — Dates & Times"}
-          </h2>
-          <p className="mb-4 text-xs text-zinc-500">
-            Render dates and times in the locale-appropriate format.
-          </p>
-          <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-5">
-            <p className="text-zinc-300">
-              Order placed on{" "}
-              <DateTime options={{ dateStyle: "long", timeStyle: "short" }}>
-                {orderDate}
-              </DateTime>
-              .
-            </p>
-          </div>
-        </section>
-      </T>
-
-      <T>
-        <section className="rounded-xl border border-zinc-800 bg-zinc-900 p-6">
-          <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-500">
-            All Together — Order Summary
-          </h2>
-          <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-5 space-y-2">
-            <p className="text-zinc-300">
-              Hi <Var>{userName}</Var>, your order of <Num>{itemCount}</Num>{" "}
-              items totaling <Currency currency="USD">{price}</Currency> was
-              placed on{" "}
-              <DateTime options={{ dateStyle: "medium" }}>
-                {orderDate}
-              </DateTime>
-              .
-            </p>
-          </div>
-        </section>
-      </T>
-
-      {/* Limitation teaser */}
-      <section className="rounded-xl border border-yellow-600/30 bg-yellow-500/5 p-6">
-        <T>
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wider text-yellow-500">
-            But what about pluralization?
-          </h2>
-          <p className="mb-4 text-xs text-zinc-400">
-            {"<Num>"} formats numbers beautifully, but the surrounding text
-            stays the same regardless of the value. Try changing the count:
-          </p>
-        </T>
-
-        <div className="mb-4 flex items-center gap-3">
-          <button
-            onClick={() => setTeaserCount(Math.max(0, teaserCount - 1))}
-            className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-1 text-sm text-white hover:bg-zinc-700"
-          >
-            -
-          </button>
-          <span className="w-8 text-center text-lg font-semibold text-white">
-            {teaserCount}
-          </span>
-          <button
-            onClick={() => setTeaserCount(teaserCount + 1)}
-            className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-1 text-sm text-white hover:bg-zinc-700"
-          >
-            +
-          </button>
-        </div>
-
-        <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-5">
-          <p className="text-zinc-300">
-            <T>
-              You have <Num>{teaserCount}</Num> items in your cart.
-            </T>
-          </p>
-        </div>
-      </section>
+      <DemoStepper steps={steps} />
     </div>
   );
 }

@@ -6,11 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "translate": "npx gtx-cli translate"
+    "translate": "npx gt translate"
   },
   "dependencies": {
-    "gt-next": "^6.12.16",
-    "gtx-cli": "^2.6.25",
+    "gt-next": "^6.16.19",
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
@@ -20,6 +19,7 @@
     "@types/node": "^25.3.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "gt": "^2.14.29",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
